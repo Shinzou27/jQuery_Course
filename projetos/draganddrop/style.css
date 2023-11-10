@@ -1,0 +1,9 @@
+#icon {
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    background-color: #7cffa4;
+    cursor: move;
+}

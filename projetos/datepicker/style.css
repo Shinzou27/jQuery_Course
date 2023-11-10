@@ -1,0 +1,42 @@
+#result {
+    font-size: 3em;
+    text-align: center;
+}
+#hours, #minutes {
+    margin: auto;
+    background-color: #ddddff;
+    width: 360px;
+    height: 360px;
+    display: flex;
+    flex-wrap: wrap;
+}
+#hour, #minute {
+    border: 1px solid black;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 0;
+    padding: 0;
+}
+#hour:hover, #minute:hover {
+    transition: .2s;
+    background-color: #7f7fae;
+}
+#hour {
+    font-size: 2.5em;
+    width: 88px;
+    height: 118px;
+    line-height: 120px;
+}
+#minute {
+    font-size: 1.5em;
+    width: 34px;
+    height: 58px;
+    line-height: 58px;
+}
+
+.containers {
+    display: flex;
+}
+#switcher {
+    padding-top: 10px;
+}

@@ -1,0 +1,75 @@
+button {
+    border-style: none;
+    width: 300px;
+    height: 100px;
+    font-size: 3em;
+    font-weight: bold;
+    background-color: greenyellow;
+    border-radius: 20px;
+    cursor: pointer;
+    margin: 30px 0px;
+}
+
+button:hover {
+    transition:.4s;
+    background-color: rgb(51, 194, 19);
+}
+.unclickable {
+    pointer-events: none;
+}
+.game {
+    opacity: 0;
+    width: 420px;
+    height: 420px;
+    margin: auto;
+    background-color: aliceblue;
+    display: flex;
+    flex-wrap: wrap;
+}
+.square {
+    width: 138px;
+    height: 138px;
+    margin: auto;
+    border: 1px solid black;
+    font-size: 80px;
+    line-height: 138px;
+    cursor: pointer;
+}
+.no-left {
+    border-left: 1px solid aliceblue !important;
+}
+
+.no-right {
+    border-right: 1px solid aliceblue!important;
+}
+
+.no-top {
+    border-top: 1px solid aliceblue!important;
+}
+
+.no-bottom {
+    border-bottom: 1px solid aliceblue!important;
+}
+.no-left:hover {
+    border-left: 1px solid rgb(89, 133, 172) !important;
+}
+
+.no-right:hover {
+    border-right: 1px solid rgb(89, 133, 172)!important;
+}
+
+.no-top:hover {
+    border-top: 1px solid rgb(89, 133, 172)!important;
+}
+
+.no-bottom:hover {
+    border-bottom: 1px solid rgb(89, 133, 172)!important;
+}
+.square:hover {
+    transition:.4s;
+    background-color: rgb(89, 133, 172);
+}
+h4 {
+    font-size: 2em;
+    font-weight: bold;
+}

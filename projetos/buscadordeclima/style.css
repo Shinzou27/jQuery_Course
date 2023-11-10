@@ -1,0 +1,31 @@
+#city-div {
+    margin: 30px;
+    font-size: 1.5em;
+}
+#city-div input {
+    height: 50px;
+    width: 500px;
+    font-size: 2em;
+    text-align: center;
+    font-weight: lighter;
+}
+button {
+    height: 50px;
+    width: 200px;
+    background-color: #b5d487;
+    font-size: 2em;
+    border-style: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+button:hover {
+    transition: .4s;
+    background-color: rgb(119, 149, 73)
+}
+#result-div {
+    margin: auto;
+    width: 500px;
+    background-color: #b5d487;
+    font-size: 3em;
+    border-radius: 10px;
+}

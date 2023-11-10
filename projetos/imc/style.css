@@ -1,0 +1,30 @@
+.abaixo-do-peso {
+    background-color: #ffa200;
+    border-radius: 5px;
+    color: #ffffff;
+}
+.ideal {
+    background-color: rgb(100, 255, 100);
+    border-radius: 5px;
+    color: #ffffff;
+}
+.sobrepeso {
+    background-color: #126fc0;
+    border-radius: 5px;
+    color: #ffffff;
+}
+.obesidade {
+    background-color: rgb(255, 80, 80);
+    border-radius: 5px;
+    color: #000000;
+}
+p {
+    margin: auto;
+    width: 400px;
+    padding: 1em;
+    font-size: 30px;
+    font-weight: bold;
+}
+input {
+    margin: 1em;
+}

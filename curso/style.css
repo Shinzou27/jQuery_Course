@@ -1,0 +1,29 @@
+.pinkBG {
+    background-color: #ffaaff;
+}
+body {
+    margin: auto;
+    text-align: center;
+}
+
+li {
+    width: fit-content;
+    margin: auto;
+}
+
+.fakebtn {
+    width: 100px;
+    margin: auto;
+    background-color: #ffaaff;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.fakebtn:hover {
+    background-color: #dc92dc;
+}
+.slidecomponent {
+    width: 100px;
+    margin: auto;
+    background-color: #ffeaff;
+    height: 100px;
+}
