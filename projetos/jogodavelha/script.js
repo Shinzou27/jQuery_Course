@@ -3,7 +3,6 @@ const game = $('.game');
 const playButton = $('#play');
 let player = 'X';
 const gamePos = new Array(9).fill('');
-console.log(gamePos);
 let endGame = false;
 $(function () {
     playButton.on('click', function () {
@@ -66,7 +65,7 @@ function newGame() {
     endGame = false;
     player = 'X';
     game.children().each((e) => {
-        console.log($(game.children()[e]).text(''));
+        $(game.children()[e]).text('');
     })
     $('.square').removeClass('unclickable');
     $('#winner').text('');
