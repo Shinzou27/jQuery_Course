@@ -19,7 +19,6 @@ $("#button").on("click", () => {
     resultIndex == undefined ? resultIndex = 0 : resultIndex = resultIndex;
     let txt = classes[resultIndex].replace('-', ' ').toUpperCase();
     resultDetails.append(txt);
-    console.log(classes[resultIndex]);
     resultDetails.addClass(classes[resultIndex]);
 })
 
